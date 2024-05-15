@@ -1,0 +1,14 @@
+{
+  "name": "@mono/server",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --import=tsx --watch .",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "tsx": "^4.10.2",
+    "typescript": "^5.4.5"
+  }
+}
